@@ -1,0 +1,5 @@
+{
+  "name": "PSHM-DSS",
+  "description": "Public Social Media Harm Monitoring & Decision Support System. A professional government-oriented platform for analyzing harmful content across text, images, and links.",
+  "requestFramePermissions": ["camera"]
+}

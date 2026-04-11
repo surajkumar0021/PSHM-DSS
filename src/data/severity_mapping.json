@@ -1,0 +1,7 @@
+{
+  "Safe": { "score": 0, "color": "green", "label": "Safe" },
+  "Low Risk": { "score": 20, "color": "blue", "label": "Low Risk" },
+  "Suspicious": { "score": 50, "color": "yellow", "label": "Suspicious" },
+  "Harmful": { "score": 75, "color": "orange", "label": "Harmful" },
+  "Critical": { "score": 90, "color": "red", "label": "Critical" }
+}

@@ -1,0 +1,149 @@
+{
+  "categories": [
+    {
+      "id": "laws",
+      "title": "Social Media Laws & Safety",
+      "questions": [
+        "What are basic social media laws?",
+        "What are the risks of harmful posting?",
+        "How to report misinformation?",
+        "What is public posting responsibility?",
+        "Are there laws against cyberbullying?",
+        "What is defamation on social media?",
+        "Can I be arrested for a post?",
+        "What are IT Act regulations?"
+      ],
+      "knowledge": [
+        {
+          "keywords": ["laws", "legal", "rules", "regulations", "it act", "cyber law"],
+          "answer": "Social media is governed by the IT Act, defamation laws, and platform community guidelines. Laws like Section 66A (though struck down, replaced by others) and Section 153A/505 of the IPC deal with hate speech and public order. Posting harmful content can lead to legal action for incitement, defamation, or spreading misinformation."
+        },
+        {
+          "keywords": ["risks", "harmful", "consequences", "trouble", "danger"],
+          "answer": "Harmful posting carries significant risks: account suspension, civil lawsuits for defamation, and criminal charges for inciting violence or communal disharmony. It can also lead to permanent damage to your professional reputation and personal safety."
+        },
+        {
+          "keywords": ["misinformation", "fake news", "report", "false", "rumor"],
+          "answer": "Spreading misinformation is a serious offense. You can report it directly to the platform or to cybercrime cells if it threatens public safety. Always verify information from official sources (like PIB Fact Check) before sharing."
+        },
+        {
+          "keywords": ["defamation", "insult", "libel", "slander", "reputation"],
+          "answer": "Defamation occurs when you post false statements that harm a person's reputation. On social media, this is 'cyber defamation'. You can be sued for damages or face criminal charges under Section 499/500 of the IPC."
+        },
+        {
+          "keywords": ["cyberbullying", "harassment", "bullying", "trolling"],
+          "answer": "Cyberbullying involving threats, stalking, or sharing private photos without consent is illegal. Laws against harassment and the IT Act provide protection. Platforms also have strict anti-harassment policies."
+        }
+      ]
+    },
+    {
+      "id": "posting_dos",
+      "title": "What to Post (Dos)",
+      "questions": [
+        "What should we post on social media?",
+        "What can we post safely?",
+        "What type of social post is okay?",
+        "What should I upload online?",
+        "What kind of content is safe to share?",
+        "How to post responsibly online?",
+        "What is safe posting behavior?"
+      ],
+      "knowledge": [
+        {
+          "keywords": ["should post", "safe posting", "responsible", "okay to share", "upload", "good content"],
+          "answer": "Post content that is respectful, informative, and positive. Safe examples include: personal achievements, educational resources, verified news from credible sources, and constructive opinions. Always respect others' privacy and maintain digital etiquette."
+        },
+        {
+          "keywords": ["verify", "fact check", "source", "credibility"],
+          "answer": "Before sharing news, verify it through multiple credible sources. Look for official government handles or established news agencies. If it sounds too shocking to be true, it likely needs a fact-check."
+        },
+        {
+          "keywords": ["respectful", "communication", "etiquette", "polite"],
+          "answer": "Use respectful language even when you disagree. Constructive criticism is fine, but avoid personal attacks. Remember that there is a real person behind every screen."
+        }
+      ]
+    },
+    {
+      "id": "posting_donts",
+      "title": "What Not to Post (Donts)",
+      "questions": [
+        "What should we not post on social media?",
+        "What content should I avoid?",
+        "What is prohibited online?",
+        "What are examples of harmful posts?",
+        "Can I post hate speech?",
+        "Is it okay to share rumors?",
+        "What kind of wording should we avoid?"
+      ],
+      "knowledge": [
+        {
+          "keywords": ["not post", "avoid", "harmful content", "prohibited", "don't share", "bad content"],
+          "answer": "Never post: Hate speech, violent threats, unverified rumors, private info of others (doxing), morphed images, or content inciting illegal acts. Avoid abusive language, communal targeting, and spreading panic during emergencies."
+        },
+        {
+          "keywords": ["hate speech", "communal", "religion", "caste", "discrimination"],
+          "answer": "Hate speech targeting religion, caste, gender, or community is strictly illegal and can lead to immediate arrest. It violates both platform rules and national laws (IPC 153A)."
+        },
+        {
+          "keywords": ["violence", "threats", "incitement", "kill", "attack"],
+          "answer": "Any post that incites violence or makes direct threats against individuals or groups is a serious criminal offense. Law enforcement monitors such content closely."
+        },
+        {
+          "keywords": ["morphed", "edited", "fake photo", "deepfake", "misleading"],
+          "answer": "Sharing morphed photos or deepfakes to malign someone's character is a crime. It falls under identity theft and defamation under the IT Act."
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Human Rights & Awareness",
+      "questions": [
+        "What are fundamental human rights?",
+        "What is freedom of expression with responsibility?",
+        "How does privacy matter on social media?",
+        "What are respectful speech principles?",
+        "Does everyone have a right to dignity online?"
+      ],
+      "knowledge": [
+        {
+          "keywords": ["human rights", "fundamental", "equality", "dignity"],
+          "answer": "Fundamental rights include the right to dignity, equality, and privacy. Online, this means everyone deserves to be treated with respect, regardless of their background or opinions."
+        },
+        {
+          "keywords": ["expression", "freedom", "speech", "responsibility", "absolute"],
+          "answer": "Freedom of speech is a right, but it is not absolute. It comes with the responsibility not to harm others, spread lies, or threaten public safety. Your right to speak ends where another's right to safety begins."
+        },
+        {
+          "keywords": ["privacy", "consent", "personal data", "doxing"],
+          "answer": "Privacy is a fundamental right. Never share someone's phone number, address, or private photos without their explicit consent. Doxing is a form of harassment and is often illegal."
+        }
+      ]
+    },
+    {
+      "id": "consequences",
+      "title": "Legal Troubles & Punishments",
+      "questions": [
+        "What kind of content can become legally risky?",
+        "What punishments can happen for harmful content?",
+        "What kind of post can create legal trouble?",
+        "What happens if I post a threat?",
+        "Can I go to jail for fake news?",
+        "What is an FIR in social media cases?"
+      ],
+      "knowledge": [
+        {
+          "keywords": ["legal risky", "trouble", "cases", "fir", "police"],
+          "answer": "Content that threatens national security, incites communal riots, defames individuals, or spreads panic during disasters is highly risky. Police can file an FIR (First Information Report) based on such posts."
+        },
+        {
+          "keywords": ["punishments", "consequences", "jail", "fine", "prison"],
+          "answer": "Punishments vary: spreading hate speech can lead to 3 years in jail; defamation can lead to 2 years; and cyber-terrorism can lead to life imprisonment. Fines can also be substantial."
+        },
+        {
+          "keywords": ["awareness", "education", "guidance"],
+          "answer": "This guidance is for awareness only. If you are facing legal issues, consult a qualified lawyer. The best way to stay safe is to follow the 'Think Before You Post' rule."
+        }
+      ]
+    }
+  ]
+}

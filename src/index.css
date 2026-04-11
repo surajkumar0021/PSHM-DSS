@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Outfit", serif;
+  
+  /* Professional Color Palette */
+  --color-gov-navy: #0B1F3A;
+  --color-gov-slate: #1E3A5F;
+  --color-gov-blue: #3B82F6;
+  --color-gov-teal: #14B8A6;
+  --color-gov-success: #22C55E;
+  --color-gov-warning: #F59E0B;
+  --color-gov-danger: #EF4444;
+  --color-gov-bg: #F8FAFC;
+  --color-gov-text-dark: #1F2937;
+  --color-gov-text-muted: #6B7280;
+  --color-gov-border: #E5E7EB;
+}
+
+@layer base {
+  body {
+    @apply bg-gov-bg text-gov-text-dark font-sans antialiased selection:bg-gov-blue/20;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight text-gov-navy;
+  }
+}
+
+.glass-card {
+  @apply bg-white border border-gov-border rounded-2xl shadow-sm transition-all duration-300;
+}
+
+.glass-card:hover {
+  @apply shadow-xl shadow-gov-navy/5 transform -translate-y-1 scale-[1.01];
+}
+
+.gov-gradient {
+  background: linear-gradient(135deg, #0B1F3A 0%, #1E3A5F 100%);
+}
+
+.nav-item-active {
+  @apply bg-white/10 text-white shadow-[inset_4px_0_0_0_#3B82F6] backdrop-blur-md;
+}
+
+.btn-primary {
+  @apply bg-gov-blue text-white px-8 py-3.5 rounded-xl font-bold uppercase tracking-widest text-[10px] shadow-lg shadow-gov-blue/20 transition-all duration-300 hover:bg-blue-600 hover:-translate-y-1 hover:shadow-xl hover:shadow-gov-blue/30 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.btn-secondary {
+  @apply border border-gov-border bg-white text-gov-navy px-8 py-3.5 rounded-xl font-bold uppercase tracking-widest text-[10px] shadow-sm transition-all duration-300 hover:bg-gov-bg hover:-translate-y-1 hover:shadow-md active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.btn-danger {
+  @apply bg-gov-danger text-white px-8 py-3.5 rounded-xl font-bold uppercase tracking-widest text-[10px] shadow-lg shadow-gov-danger/20 transition-all duration-300 hover:bg-red-600 hover:-translate-y-1 hover:shadow-xl hover:shadow-gov-danger/30 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.input-field {
+  @apply w-full bg-white border border-gov-border rounded-xl px-5 py-4 text-sm font-medium outline-none transition-all duration-300 focus:ring-4 focus:ring-gov-blue/10 focus:border-gov-blue placeholder:text-gov-text-muted shadow-sm;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+}
+

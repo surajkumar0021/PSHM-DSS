@@ -1,0 +1,8 @@
+{
+  "rules": [
+    { "id": "R1", "condition": "contains_hate_speech", "risk_increment": 40 },
+    { "id": "R2", "condition": "contains_fake_news_pattern", "risk_increment": 30 },
+    { "id": "R3", "condition": "all_caps_shouting", "risk_increment": 10 },
+    { "id": "R4", "condition": "multiple_exclamation_marks", "risk_increment": 5 }
+  ]
+}
